@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Solution18 {
+
+public class Lc18 {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
         int l = nums.length;
@@ -41,7 +42,7 @@ public class Solution18 {
         return res;
     }
     public static void main(String[] args) {
-        Solution18 solution18 = new Solution18();
+        Lc18 solution18 = new Lc18();
 //        int[] a = {2,2,2,2,2};
 //        System.out.println(solution18.fourSum(a, 8));
 //        assert solution16.threeSumClosest(a, 1) == 0 : "错误，a不大于b";
@@ -52,5 +53,6 @@ public class Solution18 {
 //        assert solution16.threeSumClosest(b, -2) != -2 : "错误，a不大于b";
         System.out.println(solution18.fourSum(b, -294967296));
         //[[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+//        System.out.println(Arrays.toString(ws));
     }
 }

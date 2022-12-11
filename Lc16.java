@@ -1,7 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
-public class Solution16 {
+public class Lc16 {
 
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
@@ -34,7 +33,7 @@ public class Solution16 {
 
 
     public static void main(String[] args) {
-        Solution16 solution16 = new Solution16();
+        Lc16 solution16 = new Lc16();
         int[] a = { 0,0,0 };
         System.out.println(solution16.threeSumClosest(a, -2));
 //        assert solution16.threeSumClosest(a, 1) == 0 : "错误，a不大于b";

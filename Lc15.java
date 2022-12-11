@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution15 {
+public class Lc15 {
 
     public List<List<Integer>> threeSum(int[] nums) {
 //        List<Integer> positiveList = new ArrayList<>();
@@ -69,7 +69,7 @@ public class Solution15 {
 
     public static void main(String[] args) {
         int[] a = { -1,0,1,2,-1,-4 };
-        Solution15 solution15 = new Solution15();
-        System.out.println(solution15.threeSum(a));
+        Lc15 lc15 = new Lc15();
+        System.out.println(lc15.threeSum(a));
     }
 }

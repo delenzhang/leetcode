@@ -83,4 +83,4 @@ function maxPathSum(root: TreeNode | null): number {
 maxPathSum(creatArrayTree([1,2,3])) // 6
 maxPathSum(creatArrayTree([-10,9,20,null,null,15,7])) //42
 maxPathSum(creatArrayTree([2,-1])) // 2
-maxPathSum(creatArrayTree([-3])) // 0
+maxPathSum(creatArrayTree([-3])) // -3

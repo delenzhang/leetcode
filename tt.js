@@ -44,3 +44,12 @@ function log(msg) {
 }
 const repeatFunc = repeat(log, 3, 2000)
 repeatFunc('test')
+
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+console.log(rl)
